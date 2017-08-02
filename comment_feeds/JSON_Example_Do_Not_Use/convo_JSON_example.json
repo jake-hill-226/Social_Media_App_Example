@@ -1,0 +1,31 @@
+[
+	//Single Comment Example
+	{
+		"id": "(comment id: 1)",
+		"name": "(creator's name)",
+		"init_date": "(date)",
+		"content": "(comment)" 
+	},
+	//Nested Comment Example
+	{
+		"id": "(comment id: 2)",
+		"name": "(creator's name)",
+		"init_date": "(date)",
+		"content": "(comment)",
+		"sub_convo": [
+						{
+							"id": "(comment id: 2:1)",
+							"name": "(creator's name)",
+							"init_date": "(date)",
+							"content": "(comment)" 
+						},
+						{
+							"id": "(comment id: 2:2)",
+							"name": "(creator's name)",
+							"init_date": "(date)",
+							"content": "(comment)" 
+						},
+						"Etc"
+					 ]
+	}
+]
